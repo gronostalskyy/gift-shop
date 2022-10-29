@@ -1,0 +1,122 @@
+body {
+	box-sizing: border-box;
+}
+
+header {
+	box-sizing: border-box;
+	width: 1440px;
+	height: 116px;
+	display: flex;
+	align-items: center;
+	font-family: 'Montserrat';
+}
+
+section {
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140.62%;
+/* or 28px */
+text-align: justify;
+
+color: #000000;
+}
+
+.header-logo {
+	font-family: 'Homemade Apple';
+	font-style: normal;
+	margin-left: 80px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 39px;
+}
+
+.header-list {
+	position: absolute;
+	display: flex;
+	list-style: none;
+	margin-left: 554px;
+	padding: unset;
+}
+
+.header-button {
+	position: absolute;
+	box-sizing: border-box;
+	font-family: 'Montserrat';
+	font-size: 18px;
+	color: #F7941E;
+	background: unset;
+	width: 150px;
+	height: 43.5px;
+	padding: 3px;
+	border: 1px solid #F7941E;
+	margin-left: 1256px;
+}
+
+.section-main {
+	position: relative;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	width: 1440px;
+	height: 700px;
+	background: #F1F1F2;
+}
+
+.first-leftside {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	width: 720px;
+	height: 700px;
+	margin: 0px;
+}
+
+.first-leftside>h3 {
+	position: absolute;
+	width: 433px;
+	height: 205px;
+	margin: auto;
+	left: 162px;
+	top: 154px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 68px;
+	color: #000000;
+}
+
+.first-leftside > p {
+	position: absolute;
+	margin: auto;
+	width: 422px;
+	height: 57px;
+	left: 162px;
+	top: 396px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 140.62%;
+	color: #000000;
+}
+
+.first-leftside > button {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	width: 200px;
+	height: 60px;
+	position: absolute;
+	top: 505px;
+	left: 162px;
+	background: #F7941E;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+
+

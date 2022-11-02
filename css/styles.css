@@ -1,3 +1,4 @@
+/*як зробити щоб see more опускало все сторінку вниз*/
 ul {
 	list-style: none;
 }
@@ -8,6 +9,7 @@ details {
 
 body {
 	box-sizing: border-box;
+	margin: auto;
 }
 
 header {
@@ -39,6 +41,7 @@ color: #000000;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 39px;
+	color: #F7941E;
 }
 
 .header-list {
@@ -46,6 +49,10 @@ color: #000000;
 	display: flex;
 	margin-left: 554px;
 	padding: unset;
+}
+
+.header-list > li {
+	margin: 15px;
 }
 
 .header-button {
@@ -62,13 +69,18 @@ color: #000000;
 	margin-left: 1256px;
 }
 
+.header-button:hover {
+	color: white;
+	background: #F7941E;
+}
+
 .section-main {
 	position: relative;
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: row;
 	width: 1440px;
-	height: 700px;
+	height: 600px;
 	background: #F1F1F2;
 }
 
@@ -111,7 +123,7 @@ color: #000000;
 	color: #000000;
 }
 
-.first-leftside > button {
+.hero-button{
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
@@ -124,7 +136,17 @@ color: #000000;
 	background: #F7941E;
 	border-radius: 5px;
 	color: #FFFFFF;
+	border: none;
+
 }
+
+.hero-button:hover {
+	background: unset;
+	color: #F7941E;
+	border: 1px solid #F7941E;
+
+}
+
 
 .section-main h4 {
 	position: absolute;
@@ -163,8 +185,13 @@ color: #000000;
 	font-size: 18px;
 	line-height: 134.77%;
 	color: #F7941E;
-
 }
+
+.second-button:hover {
+	color: white;
+	background: #F7941E;
+	}
+
 
 .section-main2 {
 	position: relative;
@@ -205,15 +232,17 @@ color: #000000;
 .occasions-table-li{
 	width: 270px;
 	margin: 0px 15px 0px 15px;
-	background: #FAFAFA;;
+	background: #FAFAFA;
 	}
 
 .occasions-table-li > p {
 	margin: 24px;
+	font-size: 25px;
 }
 
 .occasions-table-li > details {
 	margin-left: 24px;
+	font-size: 14px;
 }
 
 .container-orange {
@@ -226,14 +255,32 @@ color: #000000;
 
 .container-orange h3 {
 	position: absolute;
+	margin: auto;
 	top: 81px;
 	left: 235px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 140.62%;
+	color: #000000;
+
 }
 
 .container-orange p {
 	position: absolute;
 	top: 126px;
 	left: 235px;
+	margin: auto;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 140.62%;
+/* identical to box height, or 45px */
+
+color: #000000;
 }
 
 
@@ -248,27 +295,13 @@ color: #000000;
 	margin-left: 16px;
 	}
 
-.first-button {
-	width: 200px;
-	height: 50px;
-background: #231F20;
-border-radius: 5px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF;
-}
 
 .second-button2 {
 	background: unset;
 	width: 200px;
 	height: 50px;
 	border-radius: 5px;
+	border: 1px solid black;
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
@@ -277,4 +310,126 @@ color: #FFFFFF;
 	align-items: center;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+.second-button2:hover {
+	background: black;
+	border: none;
+	color: #F7941E;
+}
+
+.best-blog {
+margin: auto;
+padding: auto;
+}
+
+.best-blog > h2 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 39px;
+	text-align: center;
+	margin: 88px 0px 22px 0px;
+
+}
+
+.best-blog p {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #000000;
+margin: 0px 0px 71px 0px;
+}
+
+.best-blog2 {
+	position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.best-blog2 img{
+max-width: 100%;
+width: 400px;
+height: 370px;
+border-style: none;
+ }
+
+.black-box {
+	width: 770px;
+	height: 370px;
+	color: #FFFFFF;
+	background: #231F20;
+}
+
+.black-box > p {
+		color: #FFFFFF;
+		width: 770px;
+		height: 370px;
+}
+
+.best-table {
+	display: flex;
+	justify-content: center;
+	padding: unset;
+}
+
+.best-table li {
+	width: 570px;
+	height: 290px;
+}
+
+.best-table li:first-child {
+	margin-right: 30px;
+}
+
+
+.best-table li:hover {
+	box-shadow: 8px 3px 5px #F7941E;
+  }
+
+.best-table h5 {
+	width: 474px;
+	height: 68px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	color: #000000;
+}
+
+
+
+.best-table p {
+	width: 474px;
+	height: 72;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 140.62%;
+	color: #000000;
+	text-align: left;
+}
+
+footer {
+
+}
+
+.footer-ul{
+	display: flex;
+	justify-content: center;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+}
+
+.lastone {
+	text-align: center;
 }
